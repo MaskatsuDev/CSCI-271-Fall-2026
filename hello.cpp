@@ -5,14 +5,15 @@ using namespace std;
 int main(){
 
     string NameRequest;
+    int Age;
 
-    cout <<"Hello World" << endl;
-    cout << "What is your name? ";
+    cout << "Hello, what is your name? ";
     cin >> NameRequest;
-
-    cout << "Nice to meet you, " << NameRequest << "!" << endl;
+    
+    cout << "How old are you? ";
+    cin >> Age;
+    
+    cout << "Hello, I am " << NameRequest << "! " << "I am " << Age << " years old" << endl;
     
     return 0;
 }
-
-

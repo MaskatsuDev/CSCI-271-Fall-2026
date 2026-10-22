@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+  
+  int age;
+  int member;
+  
+  cout << "Enter your age:" << endl;
+  cin >> age;
+  
+  cout << "Are you a member? (Tpye 1 if you are a member and 0 for if your not a member)" << endl;
+  cin >> member;
+  
+  if (age >= 18 and member == 1){
+      cout << "You qualify for the discount.";
+  } else if (age <= 18 or member == 0 ){
+      cout << "You do not qualify for the discount";
+  }
+  
+}
